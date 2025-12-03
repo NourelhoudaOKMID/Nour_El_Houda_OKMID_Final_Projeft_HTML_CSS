@@ -15376,8 +15376,13 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+body {
+  padding: 0;
+  margin: 0;
+}
+
 .first-nav {
-  background-color: #1b1613;
+  background-color: transparent;
   color: #fbfbfb;
   display: flex;
   align-items: center;
@@ -15419,7 +15424,6 @@ i {
 }
 
 .link a {
-  background-color: black;
   text-decoration: none;
   color: #fbfbfb;
   padding-inline: 0.5vw;
@@ -15427,6 +15431,15 @@ i {
 
 .link a:hover {
   color: #ffb03b;
+}
+
+.PERNAV {
+  background-color: rgba(12, 9, 9, 0.8784313725);
+  position: fixed;
+  top: 0;
+  left: auto;
+  z-index: 999;
+  background-color: transparent;
 }
 
 /*# sourceMappingURL=app.css.map */

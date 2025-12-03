@@ -1,12 +1,17 @@
 @import "../../mixin";
-// the top nav bar 
+// the top nav bar
+body{
+    padding: 0;
+    margin: 0;
+} 
 .first-nav{
-    background-color: $pernav;
+    background-color: transparent;
     color: $white;
     @include mydisplay;
     padding-inline: 2vw;
     padding: 15px 50px;
 }
+
 
 // fix the nav bar item 
 .nav-item{
@@ -36,7 +41,6 @@ i{
     @include pi-pb; 
 }
 .link a {
-    background-color: black;
     text-decoration: none;
     color: $white;
     // pading between item in tag a 
@@ -45,4 +49,13 @@ i{
 }
 .link a:hover{
     color: $hoverr;
+}
+// the container of the pernav & secnav 
+.PERNAV{
+    background-color: #0c0909e0;
+    position: fixed;
+    top: 0;
+    left: auto;
+    z-index: 999;
+    background-color: transparent;
 }
