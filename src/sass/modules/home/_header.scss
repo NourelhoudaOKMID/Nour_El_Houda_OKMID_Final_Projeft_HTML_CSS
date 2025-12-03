@@ -49,10 +49,7 @@ p{
 
 .nav-item-right 
     button{
-        background-color: $btn;
-        color: $white;
-        border: none;
-        border-radius:25px;
+        @include radio-border;
         
         }
 .nav-item-right
@@ -85,6 +82,16 @@ i{
 
 
 
+.btn-carousel button{
+    @include radio-border;
+    @include pi-pb;
+}
+
+.btn-carousel  
+            button:hover
+        {
+        background-color: $hoverr;
+        }
 
 
 

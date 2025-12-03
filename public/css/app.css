@@ -15434,10 +15434,10 @@ p {
 }
 
 .nav-item-right button {
+  border-radius: 25px;
   background-color: #d19133;
   color: #fbfbfb;
   border: none;
-  border-radius: 25px;
 }
 
 .nav-item-right button:hover {
@@ -15466,6 +15466,19 @@ i {
   gap: 2vw;
   padding-inline: 2vw;
   padding-block: 1vh;
+}
+
+.btn-carousel button {
+  border-radius: 25px;
+  background-color: #d19133;
+  color: #fbfbfb;
+  border: none;
+  padding-inline: 2vw;
+  padding-block: 1vh;
+}
+
+.btn-carousel button:hover {
+  background-color: #ffb03b;
 }
 
 /*# sourceMappingURL=app.css.map */

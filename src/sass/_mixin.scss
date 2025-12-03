@@ -8,3 +8,9 @@
     padding-inline: 2vw;
     padding-block: 1vh;
 }
+@mixin radio-border{
+    border-radius:25px;
+    background-color: $btn;
+    color: $white;
+    border: none;
+}
