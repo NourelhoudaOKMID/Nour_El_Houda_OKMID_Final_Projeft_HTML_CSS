@@ -42,6 +42,28 @@
 
 
 
+// ^contact
+.CONTACT{
+    text-align: center;
+}
+.CONTACT span{
+    color: $btn;
+}
+.CONTACT button{
+    color: $btn;
+    background-color:$background-about-btn ;
+    border-radius: 25px;
+    border: none;
+    @include pi-pb;
+}
+
+.card-touch{
+    text-align: center;
+}
+
+
+
+
 
 
 
