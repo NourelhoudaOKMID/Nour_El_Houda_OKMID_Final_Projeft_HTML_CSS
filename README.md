@@ -17,9 +17,9 @@ where you going to see a reastaurant web site buit by using this tecnologies :
 # fonts used  :
 - Satisfy
 - Roboto
-- poppin
+- poppins
 
  and we used gitignore to ignore  the node_modules folder 
 
- 
+
 
