@@ -1,1 +1,34 @@
 @import "../../mixin";
+// *footer 
+
+.footer-section{
+    @include mydisplay ;
+    border-bottom: 0.2vh solid $footer-ligne-color ;
+}
+
+footer{
+    background-color:$footerbackground;
+    color: $white;
+}
+
+footer a {
+    color: $text-color;
+    text-decoration: none;
+}
+.icon  i  {
+    border-radius: 80%;
+    @include pi-pb;
+    background-color:transparent;
+    color: $gray;
+}
+
+.icon i:hover{
+    color: $hoverr;
+}
+
+.copy {
+    text-align: center;
+}
+
+
+// * end footer 

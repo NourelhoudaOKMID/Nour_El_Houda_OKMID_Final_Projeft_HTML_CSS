@@ -13,8 +13,12 @@ $text-color:#ffb03b;
 $background-about-btn:#fff7eb;
 $background-card-color :rgba(238, 230, 230, 0.26);
 $box-shadow-card: #888888bb;
+$footerbackground:#1e160d;
+$footer-ligne-color:#352e26;
+$gray:rgb(197, 190, 190);
 $mybox-colors: ("icon": $icon,"btn": $btn,"pernav":$pernav,"secnav":$secnav,"hoverr":$hoverr, "paragraph":$paragraph, "background-about":$background-about,"white":$white,"text-color":$text-color);
 $theme-colors: map-merge($mybox-colors, $theme-colors);
+
 
 
 
