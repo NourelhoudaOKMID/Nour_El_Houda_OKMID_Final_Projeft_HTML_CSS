@@ -470,7 +470,7 @@ h2{
             align-items: center;
             justify-content: center;
             border: none;
-            
+
 
 
         }
@@ -520,6 +520,50 @@ h2{
 
 
 
+
+
+
+
+.gallery{
+    background-color:$background-about;
+      @include mydisplay2(flex, column, center, center, 20px);
+       @include mysize(100%, 90vh);
+       button{
+          padding: 5px;
+        
+          width: 100px;
+
+        background-color: $hoverr;
+        border-radius: 20px;
+        color:$white;
+        border: none;
+        
+        
+       }
+       h2{
+        font-family: "Satisfy", cursive;
+        span{
+            color: $orange;
+        }
+       }
+       img{
+         @include mysize(350px, 250px);
+       }
+       .images .top{
+          @include mydisplay2(flex, none, center, center, 6px);
+       }
+        .images .bottom{
+         @include mydisplay2(flex, none, center, center, 8px);
+       }
+       .images{
+         @include mydisplay2(flex, column, center, center, 7px);
+       }
+       img:hover{
+        overflow: hidden;
+         transform: scale(1.1);
+       }
+
+}
 
 
 
