@@ -26,7 +26,7 @@
     @include pi-pb;
 }
 .cards {
-    @include mygrid ;
+    @include mydisplay ;
     @include pi-pb;
 }
 
@@ -45,11 +45,14 @@
 // ^contact
 .CONTACT{
     text-align: center;
+    margin-bottom: 3vh;
+
 }
 .CONTACT span{
     color: $btn;
 }
 .CONTACT button{
+    margin-bottom: 3vh;
     color: $btn;
     background-color:$background-about-btn ;
     border-radius: 25px;
@@ -73,17 +76,68 @@
 }
 
 .getintouch{
-    display: grid;
-    grid-template-columns: repeat(2,1fr );
+    @include mygrid;
 }
 
 
 
 
-.menu-menu{
-    display: flex;
+.up-menu
+{
+    @include mydisplay;
     flex-direction: column;
-    align-items: center;
+    gap: 2vh;
+    padding-bottom: 3vh;
+}
+.up-menu .btn-menu{
+    background-color:$background-about-btn ;
+    border-radius: 25px;
+    border: none;
+    color: $text-color;
+    @include pi-pb;
+
+}
+.up-menu h1 span {
+    color: $text-color;
+}
+
+
+.menuu{
+    width: 100%;
+
+}
+.menu-nav a {
+    text-decoration: none;
+    color: $gray;
+    @include pi-pb;
+}
+
+.menu-nav a:hover{
+    color: $hoverr;
+}
+
+
+.menu-card{
+    @include mygrid;
+}
+
+
+
+
+
+.menu-item{
+
+    display: flex;
+    gap: 2vw;
+    flex-direction: column;
+    background-color: aqua;
+}
+.menu-item   {
+    display: flex;
+    background-color: aqua;
+}
+.menu-card div img {
+    border-radius: 50%;
 }
 
 
@@ -100,6 +154,57 @@
 
 
 
+// Book table 
+
+
+
+.section-title{
+    text-align: center;
+
+
+
+button{
+    background-color:$background-about-btn ;
+    border-radius: 25px;
+    border: none;
+    color: $text-color;
+    @include pi-pb;
+
+}
+
+}
+.img-card {
+    img{
+    width: 50%;
+    padding-top: 2vh;
+    border: $btn;
+    box-shadow: 5px 10px 18px $box-shadow-card;
+
+}
+}
+
+.btn-book button{
+
+        @include radio-border;
+        @include pi-pb;
+        
+}
+.btn-book button:hover{
+    background-color: $background-about-btn;
+    color:$btn;
+}
+
+.formm {
+    padding-top: 2vh;
+    @include mydisplay;
+
+}
+
+.containner {
+    border: 3px;
+    box-shadow: 5px 10px 18px $box-shadow-card;
+    margin-bottom: 5vh;
+}
 
 
 

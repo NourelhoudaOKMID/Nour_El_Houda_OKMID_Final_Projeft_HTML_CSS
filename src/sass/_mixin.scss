@@ -22,16 +22,7 @@
     
 }
 
-@mixin mysize($size1, $size2){
-width:$size1 ;
-height: $size2;
-}
-
-
-@mixin mydisplay2($param1, $direction, $param2, $param3, $param4){
-display:$param1 ;
-flex-direction: $direction;
-justify-content:$param2 ;
-align-items: $param3;
-gap: $param4;
+@mixin mygrid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr );
 }
