@@ -62,6 +62,24 @@
 }
 
 
+
+.info1{
+    @include pi-pb;
+    border: 2px;
+    background-color: $background-card-color;
+    box-shadow:5px 10px 18px $box-shadow-card ;
+
+
+}
+
+.getintouch{
+    display: grid;
+    grid-template-columns: repeat(2,1fr );
+}
+
+
+
+
 .menu-menu{
     display: flex;
     flex-direction: column;
